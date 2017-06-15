@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FF2051E2F4C05F121929102 /* Pods_GroLis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD5053FAE24218F602BC825 /* Pods_GroLis.framework */; };
+		3C3E7288F4730ED8DB2DF0DA /* GLPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E731ADE396103DF6486AB /* GLPresenterProtocol.swift */; };
+		3C3E7FCA716582FB47A1849B /* GLItemM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3E7B74430B0F5BA6917B87 /* GLItemM.swift */; };
+		436DF8716D39B3A5AA231783 /* Pods_GroLisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DB3E19A74239904AFAE36B /* Pods_GroLisUITests.framework */; };
+		E44EC6861EF2EF0700CE1439 /* GLItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44EC6841EF2EF0700CE1439 /* GLItemCell.swift */; };
+		E44EC6891EF3028200CE1439 /* GLItemCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44EC6881EF3028200CE1439 /* GLItemCellProtocol.swift */; };
+		E44EC68B1EF307BD00CE1439 /* GLDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44EC68A1EF307BD00CE1439 /* GLDetailVC.swift */; };
+		E44EC68D1EF32C6700CE1439 /* GLAddItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44EC68C1EF32C6700CE1439 /* GLAddItemVC.swift */; };
+		E48049091EEA0D8C004B9C3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48049081EEA0D8C004B9C3E /* AppDelegate.swift */; };
+		E480490B1EEA0D8C004B9C3E /* GLMainTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480490A1EEA0D8C004B9C3E /* GLMainTVC.swift */; };
+		E480490E1EEA0D8C004B9C3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E480490C1EEA0D8C004B9C3E /* Main.storyboard */; };
+		E48049101EEA0D8C004B9C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E480490F1EEA0D8C004B9C3E /* Assets.xcassets */; };
+		E48049131EEA0D8C004B9C3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48049111EEA0D8C004B9C3E /* LaunchScreen.storyboard */; };
+		E480491E1EEA0D8D004B9C3E /* GroLisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E480491D1EEA0D8D004B9C3E /* GroLisTests.swift */; };
+		E48049291EEA0D8D004B9C3E /* GroLisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48049281EEA0D8D004B9C3E /* GroLisUITests.swift */; };
+		E48049371EEA0EE1004B9C3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E48049361EEA0EE1004B9C3E /* GoogleService-Info.plist */; };
+		E7334D7AE8FD124D412B8C1C /* Pods_GroLisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9E2C7A8AAC4982E7E3408A4 /* Pods_GroLisTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E480491A1EEA0D8C004B9C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E48048FD1EEA0D8C004B9C3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E48049041EEA0D8C004B9C3E;
+			remoteInfo = GroLis;
+		};
+		E48049251EEA0D8D004B9C3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E48048FD1EEA0D8C004B9C3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E48049041EEA0D8C004B9C3E;
+			remoteInfo = GroLis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CD5053FAE24218F602BC825 /* Pods_GroLis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroLis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DCA6E11236B628B8864E97F /* Pods-GroLis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroLis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroLis/Pods-GroLis.debug.xcconfig"; sourceTree = "<group>"; };
+		1039A621F851FAAF537DD00F /* Pods-GroLisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroLisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroLisTests/Pods-GroLisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2930BCC803FF0014A9ECE8EB /* Pods-GroLis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroLis.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroLis/Pods-GroLis.release.xcconfig"; sourceTree = "<group>"; };
+		3C3E731ADE396103DF6486AB /* GLPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLPresenterProtocol.swift; sourceTree = "<group>"; };
+		3C3E7B74430B0F5BA6917B87 /* GLItemM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLItemM.swift; sourceTree = "<group>"; };
+		710A150B9D1EA3D7F62D188C /* Pods-GroLisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroLisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroLisTests/Pods-GroLisTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6DB3E19A74239904AFAE36B /* Pods_GroLisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroLisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E2C7A8AAC4982E7E3408A4 /* Pods_GroLisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroLisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44EC6841EF2EF0700CE1439 /* GLItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLItemCell.swift; sourceTree = "<group>"; };
+		E44EC6881EF3028200CE1439 /* GLItemCellProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLItemCellProtocol.swift; sourceTree = "<group>"; };
+		E44EC68A1EF307BD00CE1439 /* GLDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLDetailVC.swift; sourceTree = "<group>"; };
+		E44EC68C1EF32C6700CE1439 /* GLAddItemVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLAddItemVC.swift; sourceTree = "<group>"; };
+		E48049051EEA0D8C004B9C3E /* GroLis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroLis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48049081EEA0D8C004B9C3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E480490A1EEA0D8C004B9C3E /* GLMainTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLMainTVC.swift; sourceTree = "<group>"; };
+		E480490D1EEA0D8C004B9C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E480490F1EEA0D8C004B9C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E48049121EEA0D8C004B9C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E48049141EEA0D8C004B9C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48049191EEA0D8C004B9C3E /* GroLisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroLisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E480491D1EEA0D8D004B9C3E /* GroLisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroLisTests.swift; sourceTree = "<group>"; };
+		E480491F1EEA0D8D004B9C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48049241EEA0D8D004B9C3E /* GroLisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroLisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48049281EEA0D8D004B9C3E /* GroLisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroLisUITests.swift; sourceTree = "<group>"; };
+		E480492A1EEA0D8D004B9C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48049361EEA0EE1004B9C3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EFEC74B16BDE83FFB548F494 /* Pods-GroLisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroLisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroLisUITests/Pods-GroLisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FE170EF7CCE61EE6DB7F6947 /* Pods-GroLisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroLisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroLisUITests/Pods-GroLisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E48049021EEA0D8C004B9C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF2051E2F4C05F121929102 /* Pods_GroLis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48049161EEA0D8C004B9C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7334D7AE8FD124D412B8C1C /* Pods_GroLisTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48049211EEA0D8D004B9C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436DF8716D39B3A5AA231783 /* Pods_GroLisUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C3E795B5AC630F123ADB994 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C3E7B74430B0F5BA6917B87 /* GLItemM.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		96D925C037A9C70E9E18B41B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CD5053FAE24218F602BC825 /* Pods_GroLis.framework */,
+				D9E2C7A8AAC4982E7E3408A4 /* Pods_GroLisTests.framework */,
+				C6DB3E19A74239904AFAE36B /* Pods_GroLisUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98D72B1002DF695A579B13A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DCA6E11236B628B8864E97F /* Pods-GroLis.debug.xcconfig */,
+				2930BCC803FF0014A9ECE8EB /* Pods-GroLis.release.xcconfig */,
+				1039A621F851FAAF537DD00F /* Pods-GroLisTests.debug.xcconfig */,
+				710A150B9D1EA3D7F62D188C /* Pods-GroLisTests.release.xcconfig */,
+				FE170EF7CCE61EE6DB7F6947 /* Pods-GroLisUITests.debug.xcconfig */,
+				EFEC74B16BDE83FFB548F494 /* Pods-GroLisUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E44EC6811EF2EB8D00CE1439 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E44EC6841EF2EF0700CE1439 /* GLItemCell.swift */,
+				E44EC6881EF3028200CE1439 /* GLItemCellProtocol.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		E48048FC1EEA0D8C004B9C3E = {
+			isa = PBXGroup;
+			children = (
+				E48049071EEA0D8C004B9C3E /* GroLis */,
+				E480491C1EEA0D8D004B9C3E /* GroLisTests */,
+				E48049271EEA0D8D004B9C3E /* GroLisUITests */,
+				E48049061EEA0D8C004B9C3E /* Products */,
+				98D72B1002DF695A579B13A4 /* Pods */,
+				96D925C037A9C70E9E18B41B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E48049061EEA0D8C004B9C3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E48049051EEA0D8C004B9C3E /* GroLis.app */,
+				E48049191EEA0D8C004B9C3E /* GroLisTests.xctest */,
+				E48049241EEA0D8D004B9C3E /* GroLisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E48049071EEA0D8C004B9C3E /* GroLis */ = {
+			isa = PBXGroup;
+			children = (
+				E48049081EEA0D8C004B9C3E /* AppDelegate.swift */,
+				E480490F1EEA0D8C004B9C3E /* Assets.xcassets */,
+				E48049361EEA0EE1004B9C3E /* GoogleService-Info.plist */,
+				E48049141EEA0D8C004B9C3E /* Info.plist */,
+				E48049111EEA0D8C004B9C3E /* LaunchScreen.storyboard */,
+				E480490C1EEA0D8C004B9C3E /* Main.storyboard */,
+				E44EC6811EF2EB8D00CE1439 /* Cells */,
+				3C3E795B5AC630F123ADB994 /* Models */,
+				E48049381EEA1124004B9C3E /* ViewControllers */,
+			);
+			path = GroLis;
+			sourceTree = "<group>";
+		};
+		E480491C1EEA0D8D004B9C3E /* GroLisTests */ = {
+			isa = PBXGroup;
+			children = (
+				E480491D1EEA0D8D004B9C3E /* GroLisTests.swift */,
+				E480491F1EEA0D8D004B9C3E /* Info.plist */,
+			);
+			path = GroLisTests;
+			sourceTree = "<group>";
+		};
+		E48049271EEA0D8D004B9C3E /* GroLisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E48049281EEA0D8D004B9C3E /* GroLisUITests.swift */,
+				E480492A1EEA0D8D004B9C3E /* Info.plist */,
+			);
+			path = GroLisUITests;
+			sourceTree = "<group>";
+		};
+		E48049381EEA1124004B9C3E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E480490A1EEA0D8C004B9C3E /* GLMainTVC.swift */,
+				E44EC68A1EF307BD00CE1439 /* GLDetailVC.swift */,
+				3C3E731ADE396103DF6486AB /* GLPresenterProtocol.swift */,
+				E44EC68C1EF32C6700CE1439 /* GLAddItemVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E48049041EEA0D8C004B9C3E /* GroLis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E480492D1EEA0D8D004B9C3E /* Build configuration list for PBXNativeTarget "GroLis" */;
+			buildPhases = (
+				285074CFF328407D24F0CB5D /* [CP] Check Pods Manifest.lock */,
+				E48049011EEA0D8C004B9C3E /* Sources */,
+				E48049021EEA0D8C004B9C3E /* Frameworks */,
+				E48049031EEA0D8C004B9C3E /* Resources */,
+				02880B92CE5E61C4ABDBB261 /* [CP] Embed Pods Frameworks */,
+				5C85FC842BFB18FF5F928D37 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroLis;
+			productName = GroLis;
+			productReference = E48049051EEA0D8C004B9C3E /* GroLis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E48049181EEA0D8C004B9C3E /* GroLisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E48049301EEA0D8D004B9C3E /* Build configuration list for PBXNativeTarget "GroLisTests" */;
+			buildPhases = (
+				D272A1F7C9C8EA9EB81E0BC4 /* [CP] Check Pods Manifest.lock */,
+				E48049151EEA0D8C004B9C3E /* Sources */,
+				E48049161EEA0D8C004B9C3E /* Frameworks */,
+				E48049171EEA0D8C004B9C3E /* Resources */,
+				5B568FB461F0414CB116193B /* [CP] Embed Pods Frameworks */,
+				D2E400AF317AA2374E150A75 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E480491B1EEA0D8C004B9C3E /* PBXTargetDependency */,
+			);
+			name = GroLisTests;
+			productName = GroLisTests;
+			productReference = E48049191EEA0D8C004B9C3E /* GroLisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E48049231EEA0D8D004B9C3E /* GroLisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E48049331EEA0D8D004B9C3E /* Build configuration list for PBXNativeTarget "GroLisUITests" */;
+			buildPhases = (
+				542A223B5F8287829158358B /* [CP] Check Pods Manifest.lock */,
+				E48049201EEA0D8D004B9C3E /* Sources */,
+				E48049211EEA0D8D004B9C3E /* Frameworks */,
+				E48049221EEA0D8D004B9C3E /* Resources */,
+				407AFEE8515F23EDB9F49BC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E48049261EEA0D8D004B9C3E /* PBXTargetDependency */,
+			);
+			name = GroLisUITests;
+			productName = GroLisUITests;
+			productReference = E48049241EEA0D8D004B9C3E /* GroLisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E48048FD1EEA0D8C004B9C3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Miguel Grado";
+				TargetAttributes = {
+					E48049041EEA0D8C004B9C3E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					E48049181EEA0D8C004B9C3E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E48049041EEA0D8C004B9C3E;
+					};
+					E48049231EEA0D8D004B9C3E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E48049041EEA0D8C004B9C3E;
+					};
+				};
+			};
+			buildConfigurationList = E48049001EEA0D8C004B9C3E /* Build configuration list for PBXProject "GroLis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E48048FC1EEA0D8C004B9C3E;
+			productRefGroup = E48049061EEA0D8C004B9C3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E48049041EEA0D8C004B9C3E /* GroLis */,
+				E48049181EEA0D8C004B9C3E /* GroLisTests */,
+				E48049231EEA0D8D004B9C3E /* GroLisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E48049031EEA0D8C004B9C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48049131EEA0D8C004B9C3E /* LaunchScreen.storyboard in Resources */,
+				E48049371EEA0EE1004B9C3E /* GoogleService-Info.plist in Resources */,
+				E48049101EEA0D8C004B9C3E /* Assets.xcassets in Resources */,
+				E480490E1EEA0D8C004B9C3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48049171EEA0D8C004B9C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48049221EEA0D8D004B9C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02880B92CE5E61C4ABDBB261 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroLis/Pods-GroLis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		285074CFF328407D24F0CB5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		407AFEE8515F23EDB9F49BC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroLisUITests/Pods-GroLisUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		542A223B5F8287829158358B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B568FB461F0414CB116193B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroLisTests/Pods-GroLisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C85FC842BFB18FF5F928D37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroLis/Pods-GroLis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D272A1F7C9C8EA9EB81E0BC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2E400AF317AA2374E150A75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroLisTests/Pods-GroLisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E48049011EEA0D8C004B9C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44EC68D1EF32C6700CE1439 /* GLAddItemVC.swift in Sources */,
+				E44EC6891EF3028200CE1439 /* GLItemCellProtocol.swift in Sources */,
+				E44EC6861EF2EF0700CE1439 /* GLItemCell.swift in Sources */,
+				E44EC68B1EF307BD00CE1439 /* GLDetailVC.swift in Sources */,
+				E480490B1EEA0D8C004B9C3E /* GLMainTVC.swift in Sources */,
+				E48049091EEA0D8C004B9C3E /* AppDelegate.swift in Sources */,
+				3C3E7FCA716582FB47A1849B /* GLItemM.swift in Sources */,
+				3C3E7288F4730ED8DB2DF0DA /* GLPresenterProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48049151EEA0D8C004B9C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E480491E1EEA0D8D004B9C3E /* GroLisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48049201EEA0D8D004B9C3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48049291EEA0D8D004B9C3E /* GroLisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E480491B1EEA0D8C004B9C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E48049041EEA0D8C004B9C3E /* GroLis */;
+			targetProxy = E480491A1EEA0D8C004B9C3E /* PBXContainerItemProxy */;
+		};
+		E48049261EEA0D8D004B9C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E48049041EEA0D8C004B9C3E /* GroLis */;
+			targetProxy = E48049251EEA0D8D004B9C3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E480490C1EEA0D8C004B9C3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E480490D1EEA0D8C004B9C3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E48049111EEA0D8C004B9C3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E48049121EEA0D8C004B9C3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E480492B1EEA0D8D004B9C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E480492C1EEA0D8D004B9C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E480492E1EEA0D8D004B9C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DCA6E11236B628B8864E97F /* Pods-GroLis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GroLis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgb.GroLis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E480492F1EEA0D8D004B9C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2930BCC803FF0014A9ECE8EB /* Pods-GroLis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GroLis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgb.GroLis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E48049311EEA0D8D004B9C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1039A621F851FAAF537DD00F /* Pods-GroLisTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GroLisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgb.GroLisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroLis.app/GroLis";
+			};
+			name = Debug;
+		};
+		E48049321EEA0D8D004B9C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 710A150B9D1EA3D7F62D188C /* Pods-GroLisTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GroLisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgb.GroLisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroLis.app/GroLis";
+			};
+			name = Release;
+		};
+		E48049341EEA0D8D004B9C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE170EF7CCE61EE6DB7F6947 /* Pods-GroLisUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GroLisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgb.GroLisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GroLis;
+			};
+			name = Debug;
+		};
+		E48049351EEA0D8D004B9C3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFEC74B16BDE83FFB548F494 /* Pods-GroLisUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GroLisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgb.GroLisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GroLis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E48049001EEA0D8C004B9C3E /* Build configuration list for PBXProject "GroLis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E480492B1EEA0D8D004B9C3E /* Debug */,
+				E480492C1EEA0D8D004B9C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E480492D1EEA0D8D004B9C3E /* Build configuration list for PBXNativeTarget "GroLis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E480492E1EEA0D8D004B9C3E /* Debug */,
+				E480492F1EEA0D8D004B9C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E48049301EEA0D8D004B9C3E /* Build configuration list for PBXNativeTarget "GroLisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48049311EEA0D8D004B9C3E /* Debug */,
+				E48049321EEA0D8D004B9C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E48049331EEA0D8D004B9C3E /* Build configuration list for PBXNativeTarget "GroLisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48049341EEA0D8D004B9C3E /* Debug */,
+				E48049351EEA0D8D004B9C3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E48048FD1EEA0D8C004B9C3E /* Project object */;
+}

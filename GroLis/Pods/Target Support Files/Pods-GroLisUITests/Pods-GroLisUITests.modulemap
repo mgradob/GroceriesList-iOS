@@ -1,0 +1,6 @@
+framework module Pods_GroLisUITests {
+  umbrella header "Pods-GroLisUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
